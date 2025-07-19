@@ -3,10 +3,18 @@
     <head>
         <meta charset="UTF-8">
         <meta name ="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Quiz App</title>
+        <title>RHOBH Quiz App</title>
     </head>
     <body>
-        <div class="container">
+        <!-- Homepage Section -->
+        <div id="homepage">
+            <h1>Which Real Housewife Are You?</h1>
+            <p>Take the quiz to find out which RHOBH cast member matches your personality!</p>
+            <button id="startBtn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Section (initially hidden) -->
+        <div id="quiz" class="hidden">
             <div class="quiz-progress" id="quizProgress"></div>
             <div class="question-container" id="questionContainer"></div>
             <div class="answer-container" id="answerContainer"></div>
