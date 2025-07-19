@@ -1,4 +1,4 @@
-const question = [
+const questions = [
     {
         topic: 'RHOBH',
         question: 'What is your star sign?',
