@@ -114,7 +114,13 @@ function showQuestion() {
   
     let resultHTML = '';
   
-    if (topPersonalities.length === 1) {
+    // Check for no answers selected (all scores 0)
+    if (maxScore === 0) {
+      resultHTML = `
+        <h2>We couldn't match you to a Housewife!</h2>
+        <p>Looks like your answers were too mysterious. Try again and show your true Housewife side!</p>
+      `;
+    } else if (topPersonalities.length === 1) {
       const top = topPersonalities[0];
       resultHTML = `
         <h2>You're Most Like: ${top}!</h2>
