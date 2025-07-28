@@ -28,7 +28,29 @@ const questions = [
       { text: 'Espresso Martini', personality: ['Lisa Rinna'] },
       { text: 'Water, I don’t drink anymore', personality: ['Kim Richards'] }
     ]
-  }
+  },
+  {
+    topic: 'RHOBH',
+    question: 'Pick a tagline:',
+    possibleAnswers: [
+      { text: '“I’m passionate about dogs, just not crazy about bitches.”', personality: ['Lisa Vanderpump'] },
+      { text: '“I’d rather spend my life kicking ass than kissing it.”', personality: ['Brandi Glanville'] },
+      { text: '“In Beverly Hills, you can be anything, but it’s most important to be yourself.”', personality: ['Kyle Richards'] },
+      { text: '“People try to figure me out, but I’m one of a kind.”', personality: ['Kim Richards'] },
+      { text: '“My lips were made for talkin’ and that’s just what they’ll do.”', personality: ['Lisa Rinna'] }
+    ]
+  },
+  {
+    topic: 'RHOBH',
+    question: 'Pick a dog:',
+    possibleAnswers: [
+      { text: 'Pomeranian', personality: ['Lisa Vanderpump'] },
+      { text: 'German Shepherd', personality: ['Kyle Richards'] },
+      { text: 'Chihuahua', personality: ['Brandi Glanville'] },
+      { text: 'Pitbull', personality: ['Kim Richards'] },
+      { text: 'Rottweiler', personality: ['Lisa Rinna'] }
+    ]
+  },
 ];
 
 let currentQuestion = 0;
