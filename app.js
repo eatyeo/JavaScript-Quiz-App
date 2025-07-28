@@ -4,7 +4,6 @@ let scores = {
   'Kyle Richards': 0,
   'Lisa Rinna': 0,
   'Brandi Glanville': 0,
-  'null': 0
 };
 
 const questions = [
@@ -12,8 +11,8 @@ const questions = [
     topic: 'RHOBH',
     question: 'What is your star sign?',
     possibleAnswers: [
-      { text: 'Fire (Aries, Sagittarius, Leo)', personality: ['null'] },
-      { text: 'Air (Gemini, Libra, Aquarius)', personality: ['null'] },
+      { text: 'Fire (Aries, Sagittarius, Leo)', personality: [] },
+      { text: 'Air (Gemini, Libra, Aquarius)', personality: [] },
       { text: 'Earth (Taurus, Virgo, Capricorn)', personality: ['Lisa Vanderpump', 'Kim Richards', 'Kyle Richards'] },
       { text: 'Water (Cancer, Scorpio, Pisces)', personality: ['Lisa Rinna', 'Brandi Glanville'] }
     ]
